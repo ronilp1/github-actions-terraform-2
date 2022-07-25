@@ -2,7 +2,7 @@
 # Labels
 ########
 
-module "label" {
+module "label" { 
   source     = "../terraform-label"
   namespace  = var.namespace
   name       = var.name
